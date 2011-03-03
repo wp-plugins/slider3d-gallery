@@ -1,0 +1,179 @@
+﻿<div class="wrap"> 
+	<form method="post" action="">
+		<fieldset>
+			<legend><strong>slider3d <?php echo $id; ?>. Write in your Posts: [slider3d_gallery <?php echo $id; ?> /]</strong></legend>
+			<table width="100%" border="0" cellspacing="4" cellpadding="0">
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td><label for="folder2" accesskey="f">Images Folder(Sample: images/):
+			      
+		        </label></td>
+			    <td><input  name='folder<?php echo $id; ?>' type='text' id='folder<?php echo $id; ?>'  value='<?php echo $folder; ?>' size="60"/></td>
+			    <td>Flash Width(px or %, default: 100%):</td>
+			    <td><input type='text' id='width<?php echo $id; ?>'  name='width<?php echo $id; ?>'  value='<?php echo $width; ?>'/></td>
+		      </tr>
+			  <tr>
+			    <td>Flash Height (px, default 250px): </td>
+			    <td><input type='text' id='height<?php echo $id; ?>'  name='height<?php echo $id; ?>'  value='<?php echo $height; ?>'/></td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td colspan="3">&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td><label for="titles2" accesskey="o">Image titles(separated by lines):<br />
+                </label></td>
+			    <td colspan="3"><textarea name="titles<?php echo $id; ?>" cols="80" rows="7" id="titles<?php echo $id; ?>"><?php echo $titles; ?></textarea></td>
+		      </tr>
+			  <tr>
+			    <td><label for="links3" accesskey="o"><br />
+			    </label></td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td>Image Links(separated by lines):</td>
+			    <td colspan="3"><textarea name="links<?php echo $id; ?>" cols="80" rows="7" id="links<?php echo $id; ?>"><?php echo $links2; ?></textarea></td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td colspan="2" valign="top"><h3>EFFECT </h3></td>
+			    <td><label for="row6" accesskey="r">Columns effect</label>
+                  <label for="row7" accesskey="r"></label>
+(Number >0)
+<label for="row6" accesskey="r">: </label></td>
+			    <td><input  name='row<?php echo $id; ?>' type='text' id='row<?php echo $id; ?>'  value='<?php echo $row; ?>' size="8"/></td>
+		      </tr>
+			  <tr>
+			    <td><label for="zoom1" accesskey="i">Images transition in seconds(Number > 1):
+			      
+		        </label></td>
+			    <td><input  name='zoom1<?php echo $id; ?>' type='text' id='zoom1<?php echo $id; ?>'  value='<?php echo $zoom1; ?>' size="8"/></td>
+			    <td><label>Speed:
+			      
+		        </label></td>
+			    <td><select name="onover<?php echo $id; ?>" id="onover<?php echo $id; ?>">
+			      <option value="0.2" <?php if($onover==0.2) echo ' selected="selected"'; ?>>Very fast</option>
+			      <option value="0.5" <?php if($onover==0.5) echo ' selected="selected"'; ?>>Fast</option>
+			      <option value="0.7" <?php if($onover==0.7) echo ' selected="selected"'; ?>>Normal fast</option>
+			      <option value="1" <?php if($onover==1) echo ' selected="selected"'; ?>>Normal</option>
+			      <option value="2.2" <?php if($onover==2.2) echo ' selected="selected"'; ?>>Normal slow</option>
+			      <option value="2.5" <?php if($onover==2.5) echo ' selected="selected"'; ?>>Slow</option>
+			      <option value="3" <?php if($onover==3) echo ' selected="selected"'; ?>>Very slow</option>
+		        </select></td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td valign="top"><h3>DESIGN</h3></td>
+			    <td>&nbsp;</td>
+			    <td><label for="v1" accesskey="t">Color Background(blank not background): </label></td>
+			    <td><input type='text' id='v1<?php echo $id; ?>'  name='v1<?php echo $id; ?>'  value='<?php echo $v1; ?>'/></td>
+		      </tr>
+			  <tr>
+			    <td>Plugin round(number >= 0):</td>
+			    <td><input  name='v2<?php echo $id; ?>' type='text' id='v2<?php echo $id; ?>'  value='<?php echo $v2; ?>' size="8"/></td>
+			    <td><label for="menu8" accesskey="t">Color design 1:                </label></td>
+			    <td><input type='text' id='menu4<?php echo $id; ?>'  name='menu4<?php echo $id; ?>'  value='<?php echo $menu4; ?>'/></td>
+		      </tr>
+			  <tr>
+			    <td><label for="menu9" accesskey="t">Color design 2:
+                  
+                </label></td>
+			    <td><input type='text' id='menu7<?php echo $id; ?>'  name='menu7<?php echo $id; ?>'  value='<?php echo $menu7; ?>'/></td>
+			    <td><label for="menu10" accesskey="o">Plugin border(number, 0 = not border):</label> </td>
+			    <td><input  name='menu2<?php echo $id; ?>' type='text' id='menu2<?php echo $id; ?>'  value='<?php echo $menu2; ?>' size="8"/></td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td valign="top"><h3>TEXT</h3></td>
+			    <td>&nbsp;</td>
+			    <td><label for="menu11" accesskey="t">Text font:
+			      
+		        </label></td>
+			    <td><input  name='menu5<?php echo $id; ?>' type='text' id='menu5<?php echo $id; ?>'  value='<?php echo $menu5; ?>' size="40"/></td>
+		      </tr>
+			  <tr>
+			    <td><label for="menu12" accesskey="t">Font size:
+			      
+		        </label></td>
+			    <td><input type='text' id='menu6<?php echo $id; ?>'  name='menu6<?php echo $id; ?>'  value='<?php echo $menu6; ?>'/></td>
+			    <td><label for="menu13" accesskey="d">Vertical position correction(a number positive or negative):
+			      
+			      </label>
+ </td>
+			    <td><input type='text' id='menu3<?php echo $id; ?>'  name='menu3<?php echo $id; ?>'  value='<?php echo $menu3; ?>'/></td>
+		      </tr>
+			  <tr>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+			  <tr>
+			    <td valign="top"><h3>MORE</h3></td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+			    <td><label>
+			      <input name="imageslink<?php echo $id; ?>" type="checkbox" id="imageslink<?php echo $id; ?>" value="0" <?php if($imageslink==0) echo ' checked="checked"'; ?> />
+			      Images Link</label>
+                <input name="id" type="hidden" id="id" value="<?php echo $id; ?>" /></td>
+		      </tr>
+			  <tr>
+			    <td><label for="imagebg2" accesskey="b">Gallery name:
+			      
+		        </label></td>
+			    <td><input type='text' id='imagebg<?php echo $id; ?>'  name='imagebg<?php echo $id; ?>'  value='<?php echo $imagebg; ?>'/></td>
+			    <td>&nbsp;</td>
+			    <td><label>
+			      <input name="zoom2<?php echo $id; ?>" type="checkbox" id="zoom2<?php echo $id; ?>" value="0" <?php if($zoom2==0) echo ' checked="checked"'; ?> />
+		        Show control buttons</label></td>
+		      </tr>
+			  <tr>
+			    <td><label for="target3" accesskey="o">Link target:
+			      
+		        </label></td>
+			    <td><input type='text' id='target<?php echo $id; ?>'  name='target<?php echo $id; ?>'  value='<?php echo $target; ?>'/></td>
+			    <td>&nbsp;</td>
+			    <td>&nbsp;</td>
+		      </tr>
+          </table>
+<br/>
+			  <input type='submit' name='' value='SAVE SLIDER3D <?php echo $id; ?>' />
+		  </p>
+        </fieldset>
+	</form>
+  <form method="post" action="">
+	  <input name="borrar" type="hidden" id="borrar" value="<?php echo $id; ?>">
+     <input type='submit' name='' value='Delete slider3d gallery <?php echo $id; ?>' />
+    </form>
+  <hr />
+</div>
