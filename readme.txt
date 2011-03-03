@@ -1,12 +1,12 @@
-<p>===   &#9733; Slider 3D, banner, menu and images gallery plugin or widget.   &#9733;===<br>
-  Contributors: pluginswp.com<br>
-  Donate link: http://www.pluginswp.com<br>
-  Tags: slider3d, admin, easy, javascript, jquery, marquee, module, sidebar, simple, widget, flash, nextgen, image, picture, photo, widgets, pictures, photo albums, Post, admin, media, gallery, images, slideshow, flash, photos, lightbox, AJAX, presentation, portfolio, album, posts, plugin, flip, page, book, flipping, page flip, pictures, ads, buttons, carousel photos, carousel gallery, cms, effects, embed, free flash, gallery, iphone, ipod, javascript,  media library, menu, menus, MU, photo, rotate, smooth gallery, swf, widget, wordpress,</p>
-<p>Requires at least: 2.0.2<br>
-  Tested up to: 3.0.1<br>
-  Stable tag: 4.3</p>
-<p> &#9733;&#9733;&#9733; slider3d GALLERY is a flash real 3D with an expectacular desing. </p>
-<p>slider3d Gallery is perfect to create:</p>
+===   &#9733; Slider 3D, banner, menu and images gallery plugin or widget.   &#9733;===
+  Contributors: pluginswp.com
+  Donate link: http://www.pluginswp.com
+  Tags: slider3d, admin, easy, javascript, jquery, marquee, module, sidebar, simple, widget, flash, nextgen, image, picture, photo, widgets, pictures, photo albums, Post, admin, media, gallery, images, slideshow, flash, photos, lightbox, AJAX, presentation, portfolio, album, posts, plugin, flip, page, book, flipping, page flip, pictures, ads, buttons, carousel photos, carousel gallery, cms, effects, embed, free flash, gallery, iphone, ipod, javascript,  media library, menu, menus, MU, photo, rotate, smooth gallery, swf, widget, wordpress,
+Requires at least: 2.0.2
+  Tested up to: 3.0.1
+  Stable tag: 4.3
+ &#9733;&#9733;&#9733; slider3d GALLERY is a flash real 3D with an expectacular desing. 
+slider3d Gallery is perfect to create:
 <ul>
   <li>  3D photo galleries, </li>
   <li>3D portfolios</li>
@@ -17,18 +17,18 @@
   <li>3D catalogs for your products</li>
   <li>All that you can imagine </li>
 </ul>
-<p>slider3d Gallery can be used  like module or widget in your wordpress sites. </p>
-<p>In this plugin, you can configure a lot of params like size, colors, background, links to your post or external sites, photos, number of columns or images tittles. </p>
-<p>Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.</p>
-<p>Additional Plugin Information:</p>
+slider3d Gallery can be used  like module or widget in your wordpress sites. 
+In this plugin, you can configure a lot of params like size, colors, background, links to your post or external sites, photos, number of columns or images tittles. 
+Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.
+Additional Plugin Information:
 <ul>
   <li><a href="http://www.pluginswp.com/slider3d-images/" target="_blank">Manual and config examples </a></li>
-  <li><a href="http://www.pluginswp.com/" target="_blank">Download more wordpress plugins</a> <br>
+  <li><a href="http://www.pluginswp.com/" target="_blank">Download more wordpress plugins</a> 
   </li>
 </ul>
-<p>== Description ==</p>
-<p> &#9733; slider3d GALLERY is a flash real 3D module with an expectacular desing. </p>
-<p>slider3d Gallery is perfect to create:</p>
+== Description ==
+ &#9733; slider3d GALLERY is a flash real 3D module with an expectacular desing. 
+Slider3d Gallery is perfect to create:
 <ul>
   <li> 3D photo galleries, </li>
   <li>3D portfolios</li>
@@ -39,16 +39,16 @@
   <li>3D catalogs for your products</li>
   <li>All that you can imagine </li>
 </ul>
-<p>slider3d Gallery can be used  like module or widget in your wordpress sites. </p>
-<p>In this plugin, you can configure a lot of params like size, colors, background, links to your post or external sites, photos (if you want use like ajax gallery), number of rows or images tittles. </p>
-<p>Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.</p>
-<p>Additional Plugin Information:</p>
+slider3d Gallery can be used  like module or widget in your wordpress sites. 
+In this plugin, you can configure a lot of params like size, colors, background, links to your post or external sites, photos (if you want use like ajax gallery), number of rows or images tittles. 
+Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.
+Additional Plugin Information:
 <ul>
   <li><a href="http://www.webpsilon.com/wordpress-plugins/slider3d-gallery/" target="_blank">Manual and config examples </a></li>
-  <li><a href="http://www.webpsilon.com/wordpress-plugins" target="_blank">Download more wordpress plugins</a><br>
+  <li><a href="http://www.webpsilon.com/wordpress-plugins" target="_blank">Download more wordpress plugins</a>
 </li>
 </ul>
-<p>== Installation ==</p>
+== Installation ==
 <ol>
   <li>Upload `slider3d-gallery` folder to the `/wp-content/plugins/` directory. (You can install using wordpress administration too)</li>
   <li>Activate the plugin through the 'Plugins' menu in your wordpress administration.</li>
@@ -56,7 +56,7 @@
   <li>To add a new item of slider3d you only have to write  [`slider3d-gallery` ID] in your post or pages, where ID is the gallery ID. (you can add several items in your wordpress) </li>
   <li>Enjoy it!!</li>
 </ol>
-<p> &#9733;&#9733;&#9733; Main admin params   &#9733;&#9733;&#9733;</p>
+ &#9733;&#9733;&#9733; Main admin params   &#9733;&#9733;&#9733;
 <ul>
   <li>Images Folder .- Your images folder. Upload images in this folder and automatically are shown in your slider3d. This images can be jpg, png or gif. VERY IMPORTANT: when you write your folder you don't forget last /. Example: images1/. Default folder is wp-content/plugins/slider3d-gallery/images/</li>
   <li>Speed.- Speed of the movement of gallery.</li>
@@ -65,15 +65,14 @@
   <li>Flash Height.- Height sixe of the slider3d (flash object). Here, you only can use a value in pixels. For example 400px.</li>
   <li>Image Links.- Links for each image. Write each link in one line. (backspace) </li>
   <li> Image titles.- Titles for each image. Write each image in one link. (backspace) </li>
-  <li>Link target.- Target of image links.  <br>
+  <li>Link target.- Target of image links.  
   </li>
 </ul>
-<p>== Frequently Asked Questions ==<br>
-  = What parameters should I set up to look good to me the carousel? =<br>
-  Once installed and activated, and the default plugin works correctly. The parameters are common to change the folder where you write the server folder containing the images. After adjusting the parameter row, zoom speed and get to the carousel is good. These parameters are often required to configure either because the carousel is different depending on the images you upload.</p>
-<p>== Screenshots ==</p>
-<p>1. Sample.<br>
-  2. Configuration.</p>
-<p>== Changelog ==</p>
-<p>= 1.0 =<br>
-</p>
+== Frequently Asked Questions ==
+  = What parameters should I set up to look good to me the carousel? =
+  Once installed and activated, and the default plugin works correctly. The parameters are common to change the folder where you write the server folder containing the images. After adjusting the parameter row, zoom speed and get to the carousel is good. These parameters are often required to configure either because the carousel is different depending on the images you upload.
+== Screenshots ==
+1. Sample.
+  2. Configuration.
+== Changelog ==
+= 1.1 =
