@@ -44,8 +44,8 @@ In this plugin, you can configure a lot of params like size, colors, background,
 Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.
 Additional Plugin Information:
 <ul>
-  <li><a href="http://www.webpsilon.com/wordpress-plugins/slider3d-gallery/" target="_blank">Manual and config examples </a></li>
-  <li><a href="http://www.webpsilon.com/wordpress-plugins" target="_blank">Download more wordpress plugins</a>
+  <li><a href="http://www.pluginswp.com/slider3d-images/" target="_blank">Manual and config examples </a></li>
+  <li><a href="http://www.pluginswp.com/" target="_blank">Download more wordpress plugins</a>
 </li>
 </ul>
 == Installation ==
