@@ -68,13 +68,19 @@ Additional Plugin Information:
   <li>Link target.- Target of image links.  
   </li>
 </ul>
+
 == Frequently Asked Questions ==
   = What parameters should I set up to look good to me the carousel? =
   Once installed and activated, and the default plugin works correctly. The parameters are common to change the folder where you write the server folder containing the images. After adjusting the parameter row, zoom speed and get to the carousel is good. These parameters are often required to configure either because the carousel is different depending on the images you upload.
+
 == Screenshots ==
- 1. Sample.
- 2. Configuration.
+
+1. Sample.
+2. Sample.
+3. Configuration.
+
 == Changelog ==
+
 = 1.2 =
 
 register_sidebar_widget is deprecated - fixed
