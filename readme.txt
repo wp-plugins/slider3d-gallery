@@ -5,8 +5,7 @@
 Requires at least: 2.0.2
   Tested up to: 3.0.1
   Stable tag: 4.3
- &#9733;&#9733;&#9733; slider3d GALLERY is a flash real 3D with an expectacular desing. <a href="http://www.pluginswp.com/slider3d-images/">Plugin DEMO</a>
-
+ &#9733;&#9733;&#9733; slider3d GALLERY is a flash real 3D with an expectacular desing.
 slider3d Gallery is perfect to create:
 <ul>
   <li>  3D photo galleries, </li>
@@ -18,7 +17,7 @@ slider3d Gallery is perfect to create:
   <li>3D catalogs for your products</li>
   <li>All that you can imagine </li>
 </ul>
-slider3d Gallery can be used  like module or widget in your wordpress sites. 
+ <a href="http://www.pluginswp.com/slider3d-images/">Plugin DEMO</a>. slider3d Gallery can be used  like module or widget in your wordpress sites. 
 In this plugin, you can configure a lot of params like size, colors, background, links to your post or external sites, photos, number of columns or images tittles. 
 Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.
 Additional Plugin Information:
@@ -73,7 +72,7 @@ Additional Plugin Information:
   = What parameters should I set up to look good to me the carousel? =
   Once installed and activated, and the default plugin works correctly. The parameters are common to change the folder where you write the server folder containing the images. After adjusting the parameter row, zoom speed and get to the carousel is good. These parameters are often required to configure either because the carousel is different depending on the images you upload.
 == Screenshots ==
-1. Sample.
+ 1. Sample.
  2. Configuration.
 == Changelog ==
 = 1.2 =
