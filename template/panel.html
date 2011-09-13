@@ -1,0 +1,126 @@
+﻿<div class="wrap"> 
+	<form method="post" action="">
+		<fieldset>
+			<legend><strong>MATRIX <?php echo $id; ?>. Write in your Posts: [matrix_gallery <?php echo $id; ?> /]</strong></legend>
+			<p>
+			  <label for="imagebg" accesskey="b">Gallery name::
+			    <input type='text' id='imagebg<?php echo $id; ?>'  name='imagebg<?php echo $id; ?>'  value='<?php echo $imagebg; ?>'/>
+		      </label>
+<br/>
+			  <label for="row" accesskey="r">Images Rows: 
+			    <input type='text' id='row<?php echo $id; ?>'  name='row<?php echo $id; ?>'  value='<?php echo $row; ?>'/>
+		      </label>
+			  (1-4 recommended)<br/>
+			  <label for="folder" accesskey="f">Images Folder(Sample: images/): 
+			    <input type='text' id='folder<?php echo $id; ?>'  name='folder<?php echo $id; ?>'  value='<?php echo $folder; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="speed" accesskey="s">Speed: 
+			    <input type='text' id='speed<?php echo $id; ?>'  name='speed<?php echo $id; ?>'  value='<?php echo $speed; ?>'/>
+		      </label>
+		  (0-1 recommended, sample: 0.5)</p>
+		  <p>
+		    <label>Images Mouse Effect:
+		      <select name="onover<?php echo $id; ?>" id="onover<?php echo $id; ?>">
+		        <option value="0" <?php if($onover==0) echo ' selected="selected"'; ?>>None</option>
+		        <option value="1" <?php if($onover==1) echo ' selected="selected"'; ?>>Y Rotation</option>
+		        <option value="2" <?php if($onover==2) echo ' selected="selected"'; ?>>X Rotation</option>
+		        <option value="3" <?php if($onover==3) echo ' selected="selected"'; ?>>Scale</option>
+	          </select>
+	        </label>
+            <br/>
+            <label>Matrix STYLE:
+              <select name="vertical<?php echo $id; ?>" id="vertical<?php echo $id; ?>">
+                <option value="1" <?php if($vertical==1) echo ' selected="selected"'; ?>>Viewer in centre</option>
+                <option value="0" <?php if($vertical==0) echo ' selected="selected"'; ?>>Viewer out</option>
+              </select>
+            </label>
+		  </p>
+		  <p>		    <br/>
+		    <label>
+		      <input name="imageslink<?php echo $id; ?>" type="checkbox" id="imageslink<?php echo $id; ?>" value="0" <?php if($imageslink==0) echo ' checked="checked"'; ?> />
+		      Images Lightbox</label>
+		    <input name="id" type="hidden" id="id" value="<?php echo $id; ?>" />
+		  </p>
+		  <p>		    <br/>
+		    <label for="width2" accesskey="o">Flash Width(px or %, default: 100%):
+		      <input type='text' id='width<?php echo $id; ?>'  name='width<?php echo $id; ?>'  value='<?php echo $width; ?>'/>
+	        </label>
+		    <br/>
+		    <label for="height2" accesskey="o">Flash Height (px, default 250px):
+		      <input type='text' id='height<?php echo $id; ?>'  name='height<?php echo $id; ?>'  value='<?php echo $height; ?>'/>
+	        </label>
+	      </p>
+			<p><strong>Image settings</strong><br/>
+			  <label for="zoom1" accesskey="i">Images Size:
+			    <input type='text' id='zoom1<?php echo $id; ?>'  name='zoom1<?php echo $id; ?>'  value='<?php echo $zoom1; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="zoom2" accesskey="i">Images Y separation:
+			    <input type='text' id='zoom2<?php echo $id; ?>'  name='zoom2<?php echo $id; ?>'  value='<?php echo $zoom2; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="alpha" accesskey="t">Text images separation:
+			    <input type='text' id='alpha<?php echo $id; ?>'  name='alpha<?php echo $id; ?>'  value='<?php echo $alpha; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="menu1" accesskey="g">Images border:
+			    <input type='text' id='menu1<?php echo $id; ?>'  name='menu1<?php echo $id; ?>'  value='<?php echo $menu1; ?>'/>
+		      </label>
+			  
+			  
+			  
+			  
+			  
+			  <br/>
+			  <label for="menu2" accesskey="o">Images border color(color sample white: ffffff):
+			    <input type='text' id='menu2<?php echo $id; ?>'  name='menu2<?php echo $id; ?>'  value='<?php echo $menu2; ?>'/>
+		      </label>
+		  </p>
+			<p><strong>Text settings</strong><br/>
+			  <label for="menu3" accesskey="d">Text border:
+			    <input type='text' id='menu3<?php echo $id; ?>'  name='menu3<?php echo $id; ?>'  value='<?php echo $menu3; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="menu4" accesskey="t">Text border color:
+			    <input type='text' id='menu4<?php echo $id; ?>'  name='menu4<?php echo $id; ?>'  value='<?php echo $menu4; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="menu5" accesskey="t">Text font:
+			    <input type='text' id='menu5<?php echo $id; ?>'  name='menu5<?php echo $id; ?>'  value='<?php echo $menu5; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="menu6" accesskey="t">Font size:
+			    <input type='text' id='menu6<?php echo $id; ?>'  name='menu6<?php echo $id; ?>'  value='<?php echo $menu6; ?>'/>
+		      </label>
+			  <br/>
+			  <label for="menu7" accesskey="t">Font color:
+			    <input type='text' id='menu7<?php echo $id; ?>'  name='menu7<?php echo $id; ?>'  value='<?php echo $menu7; ?>'/>
+		      </label>
+		  </p>
+			<p>			  <br/>
+			  <label for="links2" accesskey="o">Image Links(separated by INTRO):<br />
+			    <textarea name="links<?php echo $id; ?>" rows="5" id="links<?php echo $id; ?>"><?php echo $links2; ?></textarea>
+		      </label>
+		  </p>
+			<p><br/>
+			  <label for="titles" accesskey="o">Image titles(separated by INTRO):<br />
+			    <textarea name="titles<?php echo $id; ?>" rows="5" id="titles<?php echo $id; ?>"><?php echo $titles; ?></textarea>
+		      </label>
+		  </p>
+			<p><br/>
+			  <label for="target" accesskey="o">Link target: 
+			    <input type='text' id='target<?php echo $id; ?>'  name='target<?php echo $id; ?>'  value='<?php echo $target; ?>'/>
+		      </label>
+		  </p>
+			<p><br/>
+			  <input type='submit' name='' value='SAVE MATRIX <?php echo $id; ?>' />
+		  </p>
+        </fieldset>
+	</form>
+  <form method="post" action="">
+	  <input name="borrar" type="hidden" id="borrar" value="<?php echo $id; ?>">
+     <input type='submit' name='' value='Delete matrix gallery <?php echo $id; ?>' />
+    </form>
+  <hr />
+</div>
