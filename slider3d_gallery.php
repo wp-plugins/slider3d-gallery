@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Slider, banner, menu and images gallery plugin or widget.
-	Plugin URI: http://www.pluginswp.com
+	Plugin URI: http://www.pluginswp.com/slider3d-images/
 	Description: Amazing 3D Flash Images gallery or menus in Actionscript 3.
-	Version: 0.1
-	Author: Webpsilon
-	Author URI: http://www.pluginswp.com/
+	Version: 1.2
+	Author: www.pluginswp.com
+	Author URI: http://www.pluginswp.com/slider3d-images/
 */	
 $contador=0;
 
@@ -427,8 +427,8 @@ echo '
 
 
 function slider3d_gallery_init(){
-	register_sidebar_widget(__('slider3d Gallery'), 'widget_slider3d_gallery');
-	register_widget_control(   'slider3d Gallery', 'slider3d_gallery_control', 300, 300 );
+	wp_register_sidebar_widget('Slider3D', __('slider3d Gallery'), 'widget_slider3d_gallery');
+	wp_register_widget_control('Slider3D',   'slider3d Gallery', 'slider3d_gallery_control', 300, 300 );
 	
 }
 
