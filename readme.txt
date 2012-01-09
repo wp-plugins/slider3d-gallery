@@ -22,9 +22,7 @@ In this plugin, you can configure a lot of params like size, colors, background,
 Very easy to use, create a gallery is easier than never. You only have to write your image folder and automaticaly slider3d show all your photos.
 Additional Plugin Information:
 <ul>
-  <li><a href="http://www.pluginswp.com/slider3d-images/" target="_blank">DEMO Manual and config examples </a></li>
-  <li><a href="http://www.pluginswp.com/" target="_blank">Download more wordpress plugins</a> 
-  </li>
+  <li><a href="http://www.pluginswp.com/slider3d-images/" target="_blank">Plugin web and demos</a></li>
 </ul>
 == Description ==
  &#9733; slider3d GALLERY is a flash real 3D module with an expectacular desing. 
